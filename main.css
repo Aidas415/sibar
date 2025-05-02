@@ -1,0 +1,31 @@
+.f-navbar {
+   display: flex;
+   flex-direction: row;
+   font-family: 'Copperplate Gothic Boli';
+   font-size: 28px;
+}
+
+.f-link {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+
+header > div > h1 {
+    display: inline-flex;
+    margin-left: 44%;
+    width: 12%;
+    text-transform: uppercase;
+    font-family: 'Footlight MT Light';
+    font-size: 70px;
+    background-color: rgb(61, 241, 241)
+}
+
+
+
+
+
+
+

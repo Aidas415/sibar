@@ -20,12 +20,12 @@
 
 .navbar {
    justify-content: space-between;
+   text-decoration: none;
 }
 
 .left-column {
    width: 39%;
    font-family: 'Copperplate Gothic Boli';
-   text-decoration: none;
    font-size: 28px;
    background-color: aqua;
 }
@@ -40,7 +40,6 @@
 .right-column {
    width: 39%;
    font-family: 'Copperplate Gothic Boli';
-   text-decoration: none;
    font-size: 28px;
    background-color: aqua;
 }
@@ -48,35 +47,32 @@
 .summaries {
    display: inline-flex;
    width: 100%;
-   padding-bottom: 2ch;
+   padding-bottom: 3ch;
+}
+
+.content {
+   display: flex;
+   width: 25%;
 }
 
 .first-summary {
-   display: flex;
-   width: 25%;
-   height: 5%;
    padding-left: 7%;
+   height: 5%;
    background-color: greenyellow;
 }
 .second-summary {
-   display: flex;
-   width: 25%;
-   height: 5%;
    padding-left: 2%;
+   height: 5%;
    background-color: lightpink;
 }
 .third-summary {
-   display: flex;
-   width: 25%;
-   height: 5%;
    padding-left: 18%;
+   height: 5%;
    background-color: greenyellow;
 }
 .fourth-summary {
-   display: flex;
-   width: 25%;
-   height: 5%;
    padding-left: 12%;
+   height: 5%;
    background-color: lightpink;
 }
 
@@ -100,10 +96,58 @@
    height: 576px;
 }
 
+.description {
+   display: flex;
+   width: 100%;
+}
 
+.first-column {
+   display: flex;
+   width: 25%;
+   padding-right: 1%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: greenyellow;
+}
+.first-number {
+   display: flex;
+   width: 100%;  
+   background-color: aqua;
+}
+.firs-text {
+   display: flex;
+   background-color: burlywood;
+}
+.arrow {
+   display: inline-flex;
+   width: 10%;
+   background-color: orange;
+}
 
+.second-column {
+   display: flexbox;
+   width: 25%;
+   padding-right: 1%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: lightpink;
+}
+.second-number {
+   display: flex;
+   width: 100%;
+   background-color: aqua;
+}
 
+.third-column {
+   display: flexbox;
+   width: 25%;
+   padding-right: 1%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: greenyellow;
+}
 
-
-
-
+.fourth-column {
+   display: flexbox;
+   width: 25%;
+   padding-right: 1%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: lightpink;
+}

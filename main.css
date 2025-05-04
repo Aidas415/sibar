@@ -5,16 +5,24 @@
    font-family: 'Footlight MT Light';
 }
 
+.container {
+   display: flex;
+   justify-content: center;
+}
+
 .general-header {
-   display: inline-flex;
    align-items: first baseline;
+   text-decoration: none;
    width: 100%;
    height: 10%;
+   padding-bottom: 1ch;
+}
+
+.navbar {
+   justify-content: space-between;
 }
 
 .left-column {
-   display: inline-flex;
-   justify-content: space-around;
    width: 39%;
    font-family: 'Copperplate Gothic Boli';
    text-decoration: none;
@@ -23,8 +31,6 @@
 }
 
 .middle-column {
-   display: inline-flex;
-   justify-content: space-around;
    width: 21%;
    text-transform: uppercase;
    font-size: 40px;
@@ -32,8 +38,6 @@
 }
 
 .right-column {
-   display: inline-flex;
-   justify-content: space-around;
    width: 39%;
    font-family: 'Copperplate Gothic Boli';
    text-decoration: none;
@@ -42,9 +46,63 @@
 }
 
 .summaries {
-   display: inline-block;
-   flex-direction: row;
+   display: inline-flex;
+   width: 100%;
+   padding-bottom: 2ch;
 }
+
+.first-summary {
+   display: flex;
+   width: 25%;
+   height: 5%;
+   padding-left: 7%;
+   background-color: greenyellow;
+}
+.second-summary {
+   display: flex;
+   width: 25%;
+   height: 5%;
+   padding-left: 2%;
+   background-color: lightpink;
+}
+.third-summary {
+   display: flex;
+   width: 25%;
+   height: 5%;
+   padding-left: 18%;
+   background-color: greenyellow;
+}
+.fourth-summary {
+   display: flex;
+   width: 25%;
+   height: 5%;
+   padding-left: 12%;
+   background-color: lightpink;
+}
+
+.posters {
+   display: inline-table;   
+}
+.first-image {
+   width: 25%;
+   height: 576px;
+}
+.second-image {
+   width: 25%;
+   height: 576px;
+}
+.third-image {
+   width: 25%;
+   height: 576px;
+}
+.fourth-image {
+   width: 25%;
+   height: 576px;
+}
+
+
+
+
 
 
 

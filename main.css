@@ -110,7 +110,9 @@
 }
 .first-number {
    display: flex;
-   width: 100%;  
+   width: 100%; 
+   font-size: 4cqmax;
+   text-decoration: underline;
    background-color: aqua;
 }
 .firs-text {
@@ -124,7 +126,7 @@
 }
 
 .second-column {
-   display: flexbox;
+   display: flex;
    width: 25%;
    padding-right: 1%;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -133,21 +135,37 @@
 .second-number {
    display: flex;
    width: 100%;
+   font-size: 4cqmax;
+   text-decoration: underline;
    background-color: aqua;
 }
 
 .third-column {
-   display: flexbox;
+   display: flex;
    width: 25%;
    padding-right: 1%;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family: 'Ffont-size: 5cqmax;;ranklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    background-color: greenyellow;
+}
+.third-number {
+   display: flex;
+   width: 100%;
+   font-size: 4cqmax;
+   text-decoration: underline;
+   background-color: aqua;
 }
 
 .fourth-column {
-   display: flexbox;
+   display: flex;
    width: 25%;
    padding-right: 1%;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    background-color: lightpink;
+}
+.fourth-number {
+   display: flex;
+   width: 100%;
+   font-size: 4cqmax;
+   text-decoration: underline;
+   background-color: aqua;
 }
